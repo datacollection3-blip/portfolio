@@ -2,63 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Riya | Software Developer</title>
-    <link rel="stylesheet" href="stye.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Bansal | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <h1>Riya Bansal</h1>
-    <p>Software Developer</p>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Riya.</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-btn">Hire Me</a></li>
+    </ul>
 </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate software developer skilled in building web applications,
-        automating reports, and creating dashboards using modern technologies.
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Riya Bansal</span></h1>
+        <h2>Software Developer</h2>
+        <p>
+            I build scalable web applications, automation systems, 
+            and professional dashboards with clean & efficient code.
+        </p>
+        <a href="#projects" class="primary-btn">View Work</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+        I am a passionate software developer with hands-on experience in 
+        building web applications, automating MIS reports, and developing 
+        business dashboards. I focus on writing clean, maintainable code 
+        and creating user-friendly interfaces.
     </p>
 </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, SQL</li>
-        <li>Excel Automation & MIS</li>
-        <li>Git & GitHub</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-        <h3>MIS Dashboard</h3>
-        <p>Automated MIS dashboard using Excel and Google Sheets.</p>
-    </div>
-    <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio built with HTML, CSS, and JavaScript.</p>
+<!-- SKILLS -->
+<section id="skills" class="section dark">
+    <h2 class="section-title light">Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">HTML / CSS / JavaScript</div>
+        <div class="skill-card">Python & SQL</div>
+        <div class="skill-card">Excel & Google Sheets Automation</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">MIS & Dashboard Development</div>
+        <div class="skill-card">API Integration</div>
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: riya@example.com</p>
-    <p>GitHub: github.com/yourusername</p>
-</section>
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
 
-<footer>
-    <p>© 2026 Riya Bansal</p>
-</footer>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>MIS Automation Dashboard</h3>
+            <p>
+                Automated MIS reporting system using Excel, Google Sheets, 
+                and JavaScript to reduce ma
 
-<script src="script.js"></script>
-</body>
-</html>
